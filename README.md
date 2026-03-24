@@ -66,11 +66,14 @@ crontab -e
 */30 * * * * /usr/bin/python3 /opt/soc/soc_cve.py
 
 
-## le script python 
+
+
+
 
 
 ---
 
+## `soc_cve.py` (script SOC complet)
 
 #!/usr/bin/env python3
 
@@ -201,5 +204,10 @@ def main():
     export_csv(cves)
     export_json(cves)
     logging.info("Done")
+
 if __name__ == "__main__":
     main()
+
+
+
+
