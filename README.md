@@ -17,9 +17,14 @@ Outil Python de Threat Intelligence pour SOC / CERT permettant de :
 ## Installation
 
 
-git clone https://github.com/zabikissa/soc-cve-monitor.git
 
-cd soc-cve-monitor
+git clone https://github.com/zabikissa/CVE_Monitor.git
+
+
+
+cd CVE_Monitor
+
+
 
 pip3 install -r requirements.txt
 
